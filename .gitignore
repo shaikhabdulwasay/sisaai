@@ -1,0 +1,8 @@
+
+testStreamlit/env1/
+.gemini/
+__pycache__/
+.env
+.vscode/
+.stitch/
+
