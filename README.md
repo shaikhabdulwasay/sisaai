@@ -1,40 +1,98 @@
-# SISA ai - The Monolith 
+# SISA AI — The Monolith
 
-A stunning, high-end futuristic AI Chat interface built using Streamlit and Ollama. This application runs a local Language Model (qwen3.5:0.8b) without needing cloud API keys, providing complete privacy and a gorgeous glassmorphic dark theme.
+A stunning, high-end futuristic AI Chat interface built using Streamlit and Ollama. Run a local Language Model (qwen3.5:0.8b) without needing any cloud API keys — keeping your data completely private behind a gorgeous glassmorphic dark theme.
 
-![SISA ai Preview](.stitch/designs/0f71b9f0dac24509ac73cb627dce8faf.webp) *(Note: Add your actual screenshot here!)*
+> 📸 *(Add your actual screenshot here!)*
+
+---
 
 ## 🚀 Features
-- **Responsive & Futuristic UI:** Glassmorphism, blurred chat bubbles, and the dynamic Orbitron font.
-- **Local AI Engine:** Powered by Ollama using the `qwen3.5:0.8b` model for ultra-fast, offline chat capabilities.
-- **Conversation History:** Maintains memory of the current chat, easily readable from the sidebar.
-- **Complete Privacy:** Your data never leaves your machine.
 
-## 🛠️ How to Display / Share Your Work
+- **Responsive & Futuristic UI** — Enjoy glassmorphism, blurred chat bubbles, and the dynamic Orbitron font.
+- **Local AI Engine** — Powered by Ollama using the `qwen3.5:0.8b` model for ultra-fast, fully offline chat.
+- **Conversation History** — Your current chat is preserved and readable from the sidebar at all times.
+- **Complete Privacy** — Your data never leaves your machine.
 
-Since this application relies on a **Local AI model (Ollama)** running on your computer, you cannot simply share a URL for someone else to use it natively. Below are your best options to display your work:
+---
 
-### 1. The Portfolio Route (Recommended)
-Take a screen recording (video or GIF) of the app in action and upload it to this GitHub repository. This lets recruiters, friends, and clients instantly see what you built without installing anything.
-- **Tool:** Use OBS Studio, Snipping Tool (Windows 11), or generic screen recorders.
+## 🛠️ How to Run This Project
 
-### 2. The Cloud Route (Requires changes)
-If you want to host this on the web (e.g., **Streamlit Community Cloud** or **Vercel**), you will need to replace the local `ollama` backend with a cloud-based API (like Groq, OpenAI, or Hugging Face). 
-- *Why?* Because servers on the internet cannot access the Ollama processing running locally on your laptop!
+Since this app relies on a **local AI model (Ollama)** running on your computer, follow the steps below to get it up and running.
 
-### 3. Share the "Run Instructions" (For other developers)
-Other developers can clone this repository and run it exactly as you do.
+### Step 1 — Install Ollama & Pull the Model
 
-**Instructions for them:**
-1. Install [Ollama](https://ollama.com/) and download the model:
-   ```cmd
-   ollama run qwen3.5:0.8b
-   ```
-2. Clone this repo, set up a Python virtual environment, and install dependencies:
-   ```cmd
-   pip install streamlit ollama
-   ```
-3. Run the app:
-   ```cmd
-   streamlit run test1.py
-   ```
+Download and install [Ollama](https://ollama.com/), then pull the model:
+
+```bash
+ollama run qwen3.5:0.8b
+```
+
+### Step 2 — Clone the Repository
+
+```bash
+git clone https://github.com/your-username/sisa-ai.git
+cd sisa-ai
+```
+
+### Step 3 — Set Up a Python Virtual Environment
+
+```bash
+python -m venv venv
+source venv/bin/activate       # On Windows: venv\Scripts\activate
+```
+
+### Step 4 — Install Dependencies
+
+```bash
+pip install streamlit ollama
+```
+
+### Step 5 — Run the App
+
+```bash
+streamlit run test1.py
+```
+
+Your browser will open automatically. Start chatting!
+
+---
+
+## 📤 How to Share or Display Your Work
+
+Since the AI backend runs locally on your machine, you **cannot** share a live URL with others. Here are your best options:
+
+### Option 1 — Portfolio Route *(Recommended)*
+
+Record a screen recording or GIF of the app in action and upload it to this repository. This lets recruiters, friends, and clients instantly see what you built — no setup required on their end.
+
+**Tools you can use:**
+- OBS Studio
+- Snipping Tool (Windows 11)
+- Any screen recorder of your choice
+
+### Option 2 — Cloud Hosting *(Requires code changes)*
+
+To host this on the web (e.g., Streamlit Community Cloud or Vercel), replace the local Ollama backend with a cloud-based API such as **Groq**, **OpenAI**, or **Hugging Face**.
+
+> **Why?** Cloud servers cannot reach the Ollama instance running on your laptop — that's what makes this private, but also what limits direct hosting.
+
+### Option 3 — Share With Other Developers
+
+Other developers can clone this repo and run it exactly as you do by following the **How to Run** steps above.
+
+---
+
+## 🧰 Tech Stack
+
+| Layer | Technology |
+|-------|------------|
+| Frontend | Streamlit |
+| AI Backend | Ollama (`qwen3.5:0.8b`) |
+| Language | Python |
+| Styling | Custom CSS — Glassmorphism + Orbitron |
+
+---
+
+## 📄 License
+
+This project is open source. Feel free to fork, modify, and build on top of it.
