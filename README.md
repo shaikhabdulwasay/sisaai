@@ -57,31 +57,6 @@ Your browser will open automatically. Start chatting!
 
 ---
 
-## 📤 How to Share or Display Your Work
-
-Since the AI backend runs locally on your machine, you **cannot** share a live URL with others. Here are your best options:
-
-### Option 1 — Portfolio Route *(Recommended)*
-
-Record a screen recording or GIF of the app in action and upload it to this repository. This lets recruiters, friends, and clients instantly see what you built — no setup required on their end.
-
-**Tools you can use:**
-- OBS Studio
-- Snipping Tool (Windows 11)
-- Any screen recorder of your choice
-
-### Option 2 — Cloud Hosting *(Requires code changes)*
-
-To host this on the web (e.g., Streamlit Community Cloud or Vercel), replace the local Ollama backend with a cloud-based API such as **Groq**, **OpenAI**, or **Hugging Face**.
-
-> **Why?** Cloud servers cannot reach the Ollama instance running on your laptop — that's what makes this private, but also what limits direct hosting.
-
-### Option 3 — Share With Other Developers
-
-Other developers can clone this repo and run it exactly as you do by following the **How to Run** steps above.
-
----
-
 ## 🧰 Tech Stack
 
 | Layer | Technology |
