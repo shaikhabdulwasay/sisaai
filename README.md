@@ -75,3 +75,5 @@ Your browser will open automatically. Start chatting!
 ## 📄 License
 
 This project is open source. Feel free to fork, modify, and build on top of it.
+
+DEVELOPED BY SHAIKH ABDUL WASAY
