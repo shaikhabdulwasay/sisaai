@@ -34,7 +34,7 @@ ollama run qwen3.5:0.8b
 ### Step 2 — Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/sisa-ai.git
+git clone https://github.com/shaikhabdulwasay/sisa-ai.git
 cd sisa-ai
 ```
 
