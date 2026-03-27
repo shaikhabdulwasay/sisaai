@@ -3,7 +3,9 @@
 A stunning, high-end futuristic AI Chat interface built using Streamlit and Ollama. Run a local Language Model (qwen3.5:0.8b) without needing any cloud API keys — keeping your data completely private behind a gorgeous glassmorphic dark theme.
 
 > 📸 *
+
 https://github.com/user-attachments/assets/05d487bb-1abc-4662-8c1b-a085ec0d7dd1
+
 *
 
 ---
